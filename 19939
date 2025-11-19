@@ -1,0 +1,200 @@
+Intro 1
+
+public class Intro {
+    public static void main(String[] args) {
+        System.out.println("Name: Joseph K Arman, Jr");
+        System.out.println("Student ID: 19939");
+        System.out.println("This is Advanced Programming Course");
+    }
+}
+
+Profile 2
+
+public class Profile {
+    public static void main(String[] args) {
+        int studentId = 19939;
+        double averageGrade = 85.5;
+        boolean isEnrolled = true;
+
+        System.out.println("Student ID: " + studentId);
+        System.out.println("Average Grade: " + averageGrade);
+        System.out.println("Is Enrolled: " + isEnrolled);
+    }
+}
+
+CircleArea 3
+
+import java.util.Scanner;
+
+public class CircleArea {
+    public static void main(String[] args) {
+        final double PI = 3.14159;
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the radius of the circle: ");
+        double radius = scanner.nextDouble();
+
+        double area = PI * radius * radius;
+        System.out.println("The area of the circle is: " + area);
+
+        scanner.close();
+    }
+}
+
+CompareNumbers 4
+
+import java.util.Scanner;
+
+public class CompareNumbers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the first integer: ");
+        int num1 = scanner.nextInt();
+
+        System.out.print("Enter the second integer: ");
+        int num2 = scanner.nextInt();
+
+        if (num1 > num2) {
+            System.out.println(num1 + " is larger than " + num2);
+        } else if (num2 > num1) {
+            System.out.println(num2 + " is larger than " + num1);
+        } else {
+            System.out.println("The numbers are equal.");
+        }
+
+        scanner.close();
+    }
+}
+
+GradeChecker 5
+
+import java.util.Scanner;
+
+public class GradeChecker {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter your numerical score: ");
+        int score = scanner.nextInt();
+
+        char grade;
+        if (score >= 80) {
+            grade = 'A';
+        } else if (score >= 70) {
+            grade = 'B';
+        } else if (score >= 60) {
+            grade = 'C';
+        } else {
+            grade = 'F';
+        }
+
+        System.out.println("Your grade is: " + grade);
+        scanner.close();
+    }
+}
+
+DayName 6
+
+import java.util.Scanner;
+
+public class DayName {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number (1-7) for the day of the week: ");
+        int dayNumber = scanner.nextInt();
+
+        String dayName;
+        switch (dayNumber) {
+            case 1: dayName = "Monday"; break;
+            case 2: dayName = "Tuesday"; break;
+            case 3: dayName = "Wednesday"; break;
+            case 4: dayName = "Thursday"; break;
+            case 5: dayName = "Friday"; break;
+            case 6: dayName = "Saturday"; break;
+            case 7: dayName = "Sunday"; break;
+            default: dayName = "Invalid day number"; break;
+        }
+
+        System.out.println(dayName);
+        scanner.close();
+    }
+}
+
+LoopDemo 7
+
+public class LoopDemo {
+    public static void main(String[] args) {
+        System.out.println("Using for loop:");
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(i);
+        }
+
+        System.out.println("\nUsing while loop:");
+        int j = 1;
+        while (j <= 5) {
+            System.out.println(j);
+            j++;
+        }
+
+        System.out.println("\nUsing do-while loop:");
+        int k = 1;
+        do {
+            System.out.println(k);
+            k++;
+        } while (k <= 5);
+    }
+}
+
+MathMethods 8
+
+public class MathMethods {
+
+    public static int calculateSum(int a, int b) {
+        return a + b;
+    }
+
+    public static int calculateProduct(int a, int b) {
+        return a * b;
+    }
+
+    public static void main(String[] args) {
+        int number1 = 10;
+        int number2 = 5;
+
+        int sum = calculateSum(number1, number2);
+        int product = calculateProduct(number1, number2);
+
+        System.out.println("The sum is: " + sum);
+        System.out.println("The product is: " + product);
+    }
+}
+
+ArrayPractice 9
+
+public class ArrayPractice {
+    public static void main(String[] args) {
+        System.out.println("One-dimensional Array:");
+        int[] oneDArray = {10, 20, 30, 40, 50};
+        
+        for (int i = 0; i < oneDArray.length; i++) {
+            System.out.print(oneDArray[i] + " ");
+        }
+        System.out.println();
+
+        System.out.println("\nTwo-dimensional Array:");
+        int[][] twoDArray = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+
+        for (int i = 0; i < twoDArray.length; i++) {
+            for (int j = 0; j < twoDArray[i].length; j++) {
+                System.out.print(twoDArray[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
