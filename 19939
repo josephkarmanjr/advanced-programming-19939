@@ -1,4 +1,4 @@
-Intro 1
+Q1. Intro
 
 public class Intro {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Intro {
     }
 }
 
-Profile 2
+Q2. Profile
 
 public class Profile {
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class Profile {
     }
 }
 
-CircleArea 3
+Q3. CircleArea 
 
 import java.util.Scanner;
 
@@ -41,7 +41,7 @@ public class CircleArea {
     }
 }
 
-CompareNumbers 4
+Q4. CompareNumbers 
 
 import java.util.Scanner;
 
@@ -67,7 +67,7 @@ public class CompareNumbers {
     }
 }
 
-GradeChecker 5
+Q5. GradeChecker
 
 import java.util.Scanner;
 
@@ -94,7 +94,7 @@ public class GradeChecker {
     }
 }
 
-DayName 6
+Q6. DayName
 
 import java.util.Scanner;
 
@@ -122,7 +122,7 @@ public class DayName {
     }
 }
 
-LoopDemo 7
+Q7. LoopDemo
 
 public class LoopDemo {
     public static void main(String[] args) {
@@ -147,7 +147,7 @@ public class LoopDemo {
     }
 }
 
-MathMethods 8
+Q8. MathMethods
 
 public class MathMethods {
 
@@ -171,7 +171,7 @@ public class MathMethods {
     }
 }
 
-ArrayPractice 9
+Q9. ArrayPractice
 
 public class ArrayPractice {
     public static void main(String[] args) {
