@@ -1,19 +1,28 @@
-# Advanced Programming Practice Assignment
-## Student Name: Joseph K Arman, Jr
-## Student ID: 19939/2022
+# Advanced Programming Lab 1 Assignment
+## Student Name: Joseph K Arman, Jr  
+## Student ID: 19939-2022
 
-## Programs Included:
-Q1. **Intro.java** - Prints student information and welcome message
-Q2. **Profile.java** - Demonstrates primitive data types
-Q3. **CircleArea.java** - Calculates area of a circle
-Q4. **CompareNumbers.java** - Compares two integers
-Q5. **GradeChecker.java** - Converts numerical score to letter grade
-Q6. **DayName.java** - Converts day number to day name
-Q7. **LoopDemo.java** - Demonstrates for, while, and do-while loops
-Q8. **MathMethods.java** - Methods for addition and multiplication
-Q9. **ArrayPractice.java** - Works with 1D and 2D arrays
+### Lab Exercises Solutions
 
-# How to Compile and Run:
+This repository contains solutions for Advanced Programming Lab 1, featuring 9 Java programs that demonstrate fundamental programming concepts.
+
+###  Programs Included:
+
+1. **Intro.java** - Basic introduction and output demonstration
+2. **Profile.java** - Primitive data types and variables
+3. **CircleArea.java** - Area calculation with user input
+4. **CompareNumbers.java** - Number comparison using if-else
+5. **GradeChecker.java** - Score to grade conversion
+6. **DayName.java** - Day number to name using switch statement
+7. **LoopDemo.java** - Demonstration of for, while, and do-while loops
+8. **MathMethods.java** - Methods for addition and multiplication
+9. **ArrayPractice.java** - 1D and 2D array operations
+
+###  How to Compile and Run:
+
 ```bash
-javac Filename.java
-java Filename
+# Compile any program
+javac ProgramName.java
+
+# Run the program
+java ProgramName
