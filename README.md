@@ -1,5 +1,5 @@
 # Advanced Programming Practice Assignment
-## Student: Joseph K Arman, Jr
+## Student Name: Joseph K Arman, Jr
 ## Student ID: 19939/2022
 
 ## Programs Included:
